@@ -12,33 +12,52 @@
 		h5 {color:gray; font-size:15px;}
 	</style>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
 
-	<ul>
-	 <li><a href="#jiaxin">關於我</a></li>
-	 <li><a href="#holland">我的測驗結果</a></li>
-	 <li><a href="#work">MIS工作分析</a></li>
-	 <li><a href="#resume">求職履歷</a></li>
+    <nav class="navbar navbar-expand-lg bg-light">
+	<a class="navbar-brand">目錄</a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ITEMS">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+    <div class="collapse navbar-collapse" id="ITEMS">
+	<ul class="navbar-nav">
+	 <li class="nav-item"><a href="#jiaxin" class="nav-link active">關於我</a></li>
+	 <li class="nav-item"><a href="#holland" class="nav-link active">我的測驗結果</a></li>
+	 <li class="nav-item"><a href="#work" class="nav-link active">MIS工作分析</a></li>
+	 <li class="nav-item"><a href="#resume" class="nav-link active">求職履歷</a></li>
 	</ul>
+	</div>
+    <nav>
 
+    <main class="container-fluid bg-secondary text-white text-center">
 	<h1>個人簡介</h1>
-	<img src="me.jpg"></img>
+	<img src="me.jpg"class="img-fluid rounded-circle"width="80%",length="80%" id="pic"></img>
 
+	<div class="row">
+
+    <section class="col-lg-3">
     <h3 id="jiaxin">基本資料</h3>
 	姓名:楊佳欣</br>
     系級:企管三B</br>
     學號:411139167</br>
     信箱:yangj850@gmail.com</br>
+    </section>
 
+    <section class="col-lg-3">
     <h3 id="holland">興趣何倫碼測驗結果</h3>
     興趣何倫碼源自心理學家John Holland的生涯類型論，如果個人的興趣和職業能適配，就能獲得較高的動機、穩定性和滿足感，成為最佳的生涯選擇。</br>
 
     <h4>我的HOLLAND碼類型為:S社會型 & R實做型</h4>
     S社會型:對人和善，容易相處，他們關心自己和別人的感受，喜歡傾聽和了解別人，也願意付出時間和精力去解決別人的衝突，喜歡教導別人，並幫助他人成長。不愛競爭，喜歡大家一起作事，一起為團體盡力。交友廣闊，關心別人勝於關心工作。</br>
     R實做型:情緒穩定、有耐性、坦誠直率，他們通常直接行動而不多言，喜歡在講求實際、需要動手的環境中依既定的規則，一步步地製造出有實際用途的物品。對操作工具的技術活動較有興趣，在生活中眼前的事重於對未來的想像，較喜歡獨自做事。</br>
-    <img src="interest.jpg"></img>
+    <img src="interest.jpg"width="80%",length="80%" ></img>
+    </section>
 
+    <section class="col-lg-3">
     <h3 id="work">MIS（管理資訊系統）相關工作</h3>
     •R = Realistic（實做型）：喜歡動手做、實體操作、技術執行</br>
     •S = Social（社會型）：喜歡幫助人、溝通協作、訓練教學</br>
@@ -70,7 +89,9 @@
     3.技術客服 / IT 客服支援</br>
       o	協助解決用戶使用系統時遇到的問題</br>
       o	用「懂技術的方式」和「貼近使用者語言」來解釋系統</br>
+      </section>
 
+     <section class="col-lg-3">
     <h3 id="resume">求職履歷</h3>
     <h5>未來想從事的工作:技術客服 / IT 客服支援</h5>
     1.📌 技術客服 / IT 客服支援的工作內容</br>
@@ -110,7 +131,15 @@
       •	🧰 MIS 工程師 / 系統維運人員</br>
       •	🧩 專案助理 / 專案經理（PM）</br>
       •	💬 培訓講師 / 教學設計（若你社會型強）</br>
-      <img src="resume.jpg"></img>
+      <img src="resume.jpg"width="70%",length="70%"></img>
+    </section>
+
+    </div>
+    </main>
+
+	<footer>
+		Copyright ©  . All Rights Reserved.
+	</footer>
 
 
 </body>
